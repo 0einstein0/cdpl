@@ -1,0 +1,29 @@
+@use "scss/base/variables";
+
+section {
+	padding-top: 8%;
+	padding-bottom: 8%;
+
+	@media (max-width: variables.$breakpoint_sm) {
+		padding-top: 15%;
+		padding-bottom: 15%;
+	}
+	.section-title {
+		margin-bottom: 4rem;
+		font-weight: variables.$headings-font-weight;
+		@media (max-width: variables.$breakpoint_sm) {
+			margin-bottom: 2rem;
+		}
+	}
+}
+.heroBg {
+	background: url("../../../assets/images/hero-bg.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.clrText {
+	color: variables.$primary;
+}

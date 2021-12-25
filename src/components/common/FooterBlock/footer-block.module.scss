@@ -1,0 +1,13 @@
+@use "scss/base/variables";
+
+.footer-block {
+	&-title {
+		font-size: 1.25rem;
+		font-weight: variables.$headings-font-weight;
+		margin-bottom: 1rem;
+	}
+
+	&-blurb {
+		font-size: 1rem;
+	}
+}

@@ -1,0 +1,9 @@
+@use "scss/base/variables";
+
+#pageHero {
+	font-family: variables.$headings-font-family;
+	color: black;
+	font-weight: variables.$headings-font-weight;
+	font-size: 2.6rem;
+	margin-bottom: 2.5rem;
+}

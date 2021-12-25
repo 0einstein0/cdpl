@@ -1,0 +1,18 @@
+@use "scss/base/variables";
+
+.valIcon {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	box-shadow: 0 0 20px rgba(113, 191, 255, 0.25);
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+	img {
+		width: 90px;
+		margin-top: 5px;
+	}
+}
+
+h4 {
+	color: variables.$primary;
+}

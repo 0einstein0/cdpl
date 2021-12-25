@@ -1,0 +1,34 @@
+@use "./typography";
+
+// Colors
+$primary: #ff833e;
+$primaryLight: lighten($primary, 35);
+$secondary: #0480fc;
+$body-bg: #f9faff;
+$nav-bg: #fff3ef;
+
+// Typography
+$headings-font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+	Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+	"Segoe UI Symbol", "Noto Color Emoji";
+$headings-font-weight: 700;
+$font-family-base: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+	Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+	"Segoe UI Symbol", "Noto Color Emoji";
+$font-weight-base: 400;
+$nav-link-font-size: 0.875rem;
+
+// Navlink
+$nav-link-color: #676767;
+$nav-link-hover-color: $primary;
+
+// Buttons
+$input-btn-focus-width: 0;
+$btn-border-radius: 0;
+
+// Breakpoints
+$breakpoint_sm: 576px;
+$breakpoint_md: 768px;
+$breakpoint_lg: 992px;
+$breakpoint_xl: 1200px;
+$breakpoint_xxl: 1200px;

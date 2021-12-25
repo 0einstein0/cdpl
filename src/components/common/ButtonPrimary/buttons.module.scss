@@ -1,0 +1,16 @@
+@use "scss/base/variables";
+
+.btnPrimary {
+	background-color: variables.$primary;
+	font-family: variables.$font-family-base;
+	color: white;
+	font-weight: variables.$font-weight-base;
+	width: 115px;
+	height: 38px;
+	font-size: 1rem;
+	border-color: transparent;
+}
+
+button:hover {
+	opacity: 0.7;
+}

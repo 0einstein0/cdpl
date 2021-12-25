@@ -1,0 +1,61 @@
+@use "base/variables";
+@import "~bootstrap/scss/bootstrap";
+
+.clrText {
+	color: variables.$primary;
+}
+
+body {
+	font-family: variables.$headings-font-family;
+	font-weight: variables.$font-family-base;
+}
+
+// Global
+* {
+	outline: none;
+}
+.nav-link {
+	@media (min-width: 768px) {
+		padding-left: 0.8rem !important;
+		padding-right: 0.8rem !important;
+	}
+}
+body {
+	overflow-x: hidden;
+	background-color: variables.$body-bg;
+}
+
+#logo {
+	min-height: 35px;
+	max-height: 40px;
+}
+
+nav {
+	background-color: variables.$nav-bg;
+	a {
+		color: variables.$nav-link-color;
+	}
+	a:hover {
+		color: variables.$primary;
+	}
+}
+
+#footer {
+	border-top: 3px solid;
+	border-color: variables.$primary;
+}
+
+.hero {
+	width: 50%;
+	p {
+		font-size: 1.3rem;
+		margin-bottom: 2.2rem;
+	}
+}
+
+.formBtn {
+	background-color: variables.$primary;
+	border: none;
+	height: 40px;
+	margin-bottom: 50px;
+}
