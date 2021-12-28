@@ -20,10 +20,8 @@
 	}
 }
 
-.mdiv {
-	p {
-		color: variables.$primary;
-		font-size: 2rem;
-		font-weight: variables.$font-weight-base;
-	}
+.valText {
+	color: variables.$primary;
+	font-size: 2rem;
+	font-weight: variables.$font-weight-base;
 }
