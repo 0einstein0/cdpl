@@ -18,8 +18,12 @@
 	@media (max-width: variables.$breakpoint_md) {
 		margin: 0 auto;
 	}
+}
+
+.mdiv {
 	p {
 		color: variables.$primary;
+		font-size: 2rem;
 		font-weight: variables.$font-weight-base;
 	}
 }
