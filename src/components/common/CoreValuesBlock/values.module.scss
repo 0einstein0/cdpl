@@ -14,6 +14,11 @@
 	}
 }
 
+h4 {
+	color: variables.$primary;
+	font-weight: 300;
+}
+
 .midVal {
 	@media (max-width: variables.$breakpoint_md) {
 		margin: 0 auto;
