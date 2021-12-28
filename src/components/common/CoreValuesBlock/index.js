@@ -7,7 +7,7 @@ const CoreValuesBlock = ({ icon, title, midVal }) => {
 			<div className={styles.valIcon}>
 				<img src={icon} alt="" className="img-fluid" />
 			</div>
-			<h3>{title}</h3>
+			<p>{title}</p>
 		</div>
 	);
 };

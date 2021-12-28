@@ -14,13 +14,12 @@
 	}
 }
 
-h3 {
-	color: variables.$primary;
-	font-weight: variables.$font-weight-base;
-}
-
 .midVal {
 	@media (max-width: variables.$breakpoint_md) {
 		margin: 0 auto;
+	}
+	p {
+		color: variables.$primary;
+		font-weight: variables.$font-weight-base;
 	}
 }
