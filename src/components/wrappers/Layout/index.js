@@ -1,9 +1,8 @@
 import React from "react";
 import { Footer, Header } from "components/shared";
-
 import "scss/main.scss";
 
-const Layout = ({ pageTitle, children, footer }) => {
+const Layout = ({ children, footer }) => {
 	return (
 		<>
 			<div className="layout">

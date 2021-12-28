@@ -10,7 +10,7 @@ const ContactForm = () => {
 	const [isSending, setisSending] = useState(false);
 	const [formSuccess, setformSuccess] = useState();
 	return (
-		<form>
+		<form className="px-4">
 			<FormInput
 				type="text"
 				name="full-name"

@@ -15,7 +15,7 @@ body {
 	outline: none;
 }
 .nav-link {
-	@media (min-width: 768px) {
+	@media (min-width: variables.$breakpoint_md) {
 		padding-left: 0.8rem !important;
 		padding-right: 0.8rem !important;
 	}
@@ -40,22 +40,75 @@ nav {
 	}
 }
 
+.netImg {
+	width: 65%;
+	@media (max-width: variables.$breakpoint_md) {
+		width: 100%;
+	}
+}
+
 #footer {
 	border-top: 3px solid;
 	border-color: variables.$primary;
 }
 
 .hero {
-	width: 50%;
+	width: 47%;
 	p {
-		font-size: 1.3rem;
-		margin-bottom: 2.2rem;
+		font-size: 1.25rem;
+		margin-bottom: 2.9rem;
+	}
+	@media (max-width: variables.$breakpoint_sm) {
+		p {
+			font-size: 1rem;
+			text-align: center;
+		}
+
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+	}
+	@media (max-width: variables.$breakpoint_md) {
+		width: 100%;
+		margin-top: 3rem;
 	}
 }
 
+.truckImg {
+	margin-top: 30px;
+	height: auto;
+	max-height: 350px;
+}
+
+p {
+	@media (max-width: variables.$breakpoint_sm) {
+		font-size: 1rem;
+		text-align: center;
+		margin-bottom: 2.9rem;
+	}
+}
 .formBtn {
 	background-color: variables.$primary;
 	border: none;
 	height: 40px;
 	margin-bottom: 50px;
+}
+
+.padding-0 {
+	padding-right: 12rem;
+	padding-left: 12rem;
+	@media (max-width: variables.$breakpoint_md) {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+.paddingTeam {
+	padding-right: 7rem;
+	padding-left: 7rem;
+	padding-bottom: 5%;
+	@media (max-width: variables.$breakpoint_md) {
+		padding-right: 4rem;
+		padding-left: 4rem;
+	}
 }

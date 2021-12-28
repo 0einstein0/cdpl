@@ -7,7 +7,7 @@ import { FooterBlock } from "components/common";
 const Footer = () => {
 	return (
 		<footer id="footer">
-			<div className="container-fluid p-5">
+			<div className="container-fluid p-3 my-3">
 				<Container>
 					<div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 justify-content-center">
 						{/* Footer Column 1 */}

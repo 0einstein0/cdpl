@@ -6,4 +6,7 @@
 	font-weight: variables.$headings-font-weight;
 	font-size: 2rem;
 	padding-bottom: 1.2rem;
+	@media (max-width: variables.$breakpoint_sm) {
+		text-align: center;
+	}
 }

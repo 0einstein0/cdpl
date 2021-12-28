@@ -5,9 +5,9 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ButtonPrimary from "components/common/ButtonPrimary";
 const FooterBlock = ({ icon, title, phone, email, btnText, blurb }) => {
 	return (
-		<div className=" row text-center mb-0 d-flex justify-content-center justify-content-sm-center">
+		<div className=" row text-center mb-0 d-flex justify-content-center justify-content-sm-center mx-0">
 			<div>
-				{icon && <img src={icon} alt="cdpl_logo" className="img-fluid" style={{ width: "90px" }} />}
+				{icon && <img src={icon} alt="cdpl_logo" className="img-fluid " style={{ width: "30%" }} />}
 				<h2 className={styles.footerBlockTitle}>{title}</h2>
 				{email && (
 					<div>

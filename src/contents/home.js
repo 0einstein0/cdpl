@@ -13,8 +13,10 @@ export const content = {
 	// Who We Are
 	about: {
 		sectionTitle: "Who We Are",
-		description:
-			"Crystal Distributors (Private) Limited is a privately-owned company, incorporated to source, market and distribute Fast Moving Consumer Goods (FMCGs) in strategically identified national and international markets. CDPL was born in the year 2000, and has been growing rapidly since with warehouses and sales offices in Lahore, Karachi, Faisalabad, Sialkot & Gujranwala, Pakistan. \nCrystal Distributors chooses to perform the function of connecting channel partners with consumers, while capitalizing on its location, availability, trained human resources and fleet of distribution capital.",
+		descPara1:
+			"Crystal Distributors (Private) Limited is a privately-owned company, incorporated to source, market and distribute Fast Moving Consumer Goods (FMCGs) in strategically identified national and international markets. CDPL was born in the year 2000, and has been growing rapidly since with warehouses and sales offices in Lahore, Karachi, Faisalabad, Sialkot & Gujranwala, Pakistan.",
+		descPara2:
+			"Crystal Distributors chooses to perform the function of connecting channel partners with consumers, while capitalizing on its location, availability, trained human resources and fleet of distribution capital.",
 	},
 
 	// Our Core Values

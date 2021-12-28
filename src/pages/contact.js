@@ -8,8 +8,11 @@ const Contact = () => {
 	return (
 		<Layout pageTitle={content.pageTitle}>
 			<Container small>
-				<SectionTitle title={content.formTitle} />
-				<p>{content.description}</p>
+				<div className="px-4">
+					<SectionTitle title={content.formTitle} />
+					<p>{content.description}</p>
+				</div>
+
 				<ContactForm />
 			</Container>
 		</Layout>

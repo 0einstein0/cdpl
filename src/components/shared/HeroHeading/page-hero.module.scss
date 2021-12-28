@@ -4,6 +4,11 @@
 	font-family: variables.$headings-font-family;
 	color: black;
 	font-weight: variables.$headings-font-weight;
-	font-size: 2.6rem;
-	margin-bottom: 2.5rem;
+	font-size: 2.5rem;
+	margin-bottom: 2.9rem;
+	@media (max-width: variables.$breakpoint_sm) {
+		margin-top: 1.9rem;
+		font-size: 1.9rem;
+		margin-bottom: 1.9rem;
+	}
 }
