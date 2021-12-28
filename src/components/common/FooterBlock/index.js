@@ -23,7 +23,7 @@ const FooterBlock = ({ icon, title, phone, email, btnText, blurb }) => {
 						</a>
 					</div>
 				)}
-				<p className={styles.footerBlockBlurb}>{blurb}</p>
+				<h3 className={styles.footerBlockBlurb}>{blurb}</h3>
 				{btnText && <ButtonPrimary title={btnText} />}
 			</div>
 		</div>
